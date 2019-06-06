@@ -2,7 +2,7 @@ root:*::
 daemon:*::
 bin:*::
 sys:*::
-adm:*::syslog
+adm:*::syslog,matthias
 tty:*::
 disk:*::
 lp:*::
@@ -15,12 +15,12 @@ kmem:*::
 dialout:*::
 fax:*::
 voice:*::
-cdrom:*::
+cdrom:*::matthias
 floppy:*::
 tape:*::
-sudo:*::
+sudo:*::matthias
 audio:*::
-dip:*::
+dip:*::matthias
 www-data:*::
 backup:*::
 operator:*::
@@ -32,7 +32,7 @@ shadow:*::
 utmp:*::
 video:*::
 sasl:*::
-plugdev:*::
+plugdev:*::matthias
 staff:*::
 games:*::
 users:*::
@@ -44,8 +44,9 @@ input:!::
 crontab:!::
 syslog:!::
 messagebus:!::
-lxd:!::
+lxd:!::matthias
 mlocate:!::
 uuidd:!::
 ssh:!::
 landscape:!::
+matthias:!::
