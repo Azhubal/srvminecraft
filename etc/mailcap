@@ -35,6 +35,36 @@ application/x-troff-man; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/us
 text/troff; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/usr/bin/nroff -mandoc -Tutf8 | print text/plain:-
 application/x-info; /usr/bin/info -f '%s'; needsterminal; description=GNU Info document
 text/plain; more %s; needsterminal
+text/english; /usr/bin/emacs25 -nw %s; needsterminal
+text/plain; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-makefile; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-c++hdr; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-c++src; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-chdr; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-csrc; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-java; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-moc; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-pascal; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-tcl; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-tex; /usr/bin/emacs25 -nw %s; needsterminal
+application/x-shellscript; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-c; /usr/bin/emacs25 -nw %s; needsterminal
+text/x-c++; /usr/bin/emacs25 -nw %s; needsterminal
+text/english; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/plain; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-makefile; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-c++hdr; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-c++src; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-chdr; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-csrc; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-java; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-moc; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-pascal; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-tcl; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-tex; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+application/x-shellscript; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-c; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
+text/x-c++; /usr/bin/emacs25 %s; test=test -n "$DISPLAY"
 x-scheme-handler/snap; /usr/bin/snap handle-link %s; test=test -n "$DISPLAY"
 text/english; vim %s; needsterminal
 text/plain; vim %s; needsterminal
